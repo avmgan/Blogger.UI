@@ -13,7 +13,7 @@ function Menu() {
                     </div>
                 </div>
                                 
-                <h4 className="name text-center"> Nabi Karampoor </h4>
+                <h4 className="name text-center"> Nabi Karampour </h4>
                 <p className="profile-desc text-center"> Husband | Engineer | Blogger | Speaker | Tech YouTuber | .NET Enthusiast | Radio.Codes </p>
             
                 <span className="menu-title">Menu</span>

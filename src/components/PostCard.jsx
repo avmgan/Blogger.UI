@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 import Icon from "../font-icon/Icon"
+import { formatDate } from '../helpers/helpers'
 
 function PostCard({data}) {
     
     const {articleId , title , body , summary , tags , readOnMinutes , publishedOnUtc} = data
-    console.log(data)
 
     return (
         <>
@@ -14,18 +14,15 @@ function PostCard({data}) {
                 <div className="d-flex align-items-center gap-3">
                     <p className="post-details d-flex align-items-center gap-1 ">
                         <Icon color="#444" size={20} icon="Calendar" />
-                        {/* 16 Agu 2023  */}
-                        {publishedOnUtc}
+                        {formatDate(publishedOnUtc)}
                     </p>
                     <p className="post-details d-flex align-items-center gap-1 ">
                         <Icon color="#444" size={20} icon="Clock" />
-                        {/* 6 min read */}
                         {readOnMinutes} 
                     </p>
                     <p className="post-details d-flex align-items-center gap-1 ">
                         <Icon color="#444" size={20} icon="Tag1" />
-                        {/* ASP.NET  */}
-                        {tags}
+                        {tags.join('  -  ')}
                     </p>
                 </div>
             </div>
