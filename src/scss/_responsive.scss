@@ -9,26 +9,21 @@
         left: 0;
         top: 0;
         right: 0;
-        display: none;
+        // display: none;
         z-index: 1;
-        &.show{
-            display: block;
-        }
+        // &.show{
+        //     display: block;
+        // }
     }
     .sidebar-mobile{
         width: 265px;
-        // margin-top: 48px;
         position: absolute;
         top: 48px;
-        left: -300px;
         transition: $transition;
         border-radius: 0;
         height: 100%;
         overflow-y: auto;
-        z-index: 1;
-        &.show{
-            left: 0;
-        }
+        z-index: 11;
     } 
 }
 @media screen and (max-width : 576px){
