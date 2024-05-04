@@ -14,4 +14,32 @@ function formatDate(date) {
     return [year, month, day].join('/');
 }
 export {formatDate}
+
+
+    // sidebar mobile
+    // $('.hamburger-menu').on('click' , ()=>{
+    //     $('.sidebar-mobile').toggleClass('show')
+    //     $('.overlay').toggleClass('show')
+    //     $('body').css('overflow' , 'hidden')
+    // })
+    // $('.overlay').on('click' , ()=>{
+    //     $('.sidebar-mobile').removeClass('show')
+    //     $('.overlay').removeClass('show')
+    //     $('.search-header').removeClass('show')
+    //     $('body').css('overflow' , 'scroll')
+    // })
+
+    // search header
+    // $('.search-btn').on('click' , ()=>{
+    //   $('.search-header').addClass('show')
+    //   $('.overlay').addClass('show')
+    //   $('body').css('overflow' , 'hidden')
+    //   $('.sidebar-mobile').removeClass('show')
+    // })
+    // $('.close-search-wrapper').on('click' , ()=>{
+    //     $('.search-header').removeClass('show')
+    //     $('.overlay').removeClass('show')
+    //     $('body').css('overflow' , 'scroll')
+    // })
+
  
